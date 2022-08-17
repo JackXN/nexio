@@ -6,6 +6,7 @@ import Image from 'next/image'
 //  Components
 import Navbar from '../components/Navbar/index';
 import Hero from '../components/Hero/index';
+import SmartLighting from '../components/SmartLighting/index';
 import {Container, Box} from '@chakra-ui/react';
 
 import AOS from 'aos';
@@ -25,12 +26,15 @@ useEffect(() => {
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" />
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Catamaran:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
 {/* AOS */}
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
-
       </Head>
       <Navbar />
       <Hero/>
+      <SmartLighting/>
     </Box>
   )
 }
@@ -40,7 +44,7 @@ const styles = {
   container: {
     overflowX: 'hidden',
     backgroundImage: 'url(./bg.png)',
-    height: '100vh',
+    height: '100%',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',

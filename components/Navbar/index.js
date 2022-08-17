@@ -1,18 +1,23 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Link, Box, Flex, Text, Button, Stack } from "@chakra-ui/react";
 import Image from 'next/image';
 
 
 import Logo from "./Logo";
 
+
+import Aos from 'aos';
+
 const NavBar = (props) => {
-  const [isOpen, setIsOpen] = React.useState(false);
+
+
+    const [isOpen, setIsOpen] = React.useState(false);
 
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <NavBarContainer {...props}>
-   <Image src='/Logo.png' height='50px' width='50px' color='white !important' data-aos="fade-up-left"/>
+    <NavBarContainer {...props} data-aos="fade-up-left" backgroundImage='/bg.png'>
+   <Image src='/Logo.png' height='50px' width='50px' color='white !important' />
       <MenuToggle toggle={toggle} isOpen={isOpen} />
       <MenuLinks isOpen={isOpen} />
     </NavBarContainer>
@@ -91,6 +96,7 @@ const NavBarContainer = ({ children, ...props }) => {
       w="100%"
       mb={8}
       p={8}
+      
       bg={["primary.500", "primary.500", "transparent", "transparent"]}
       color={["white", "white", "primary.700", "primary.700"]}
       {...props}

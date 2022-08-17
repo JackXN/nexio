@@ -39,7 +39,13 @@ const styles = {
         justifyContent: 'center',
         alignItems: 'center',
         textAlign: 'center',
-        fontFamily:'Bebas Neue'
+        fontFamily:'Bebas Neue',
+        backgroundImage: 'url(./bg.png)',
+        height: '100%',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundAttachment: 'fixed'
     },
     textContainer: {
         color: 'white',
@@ -49,7 +55,6 @@ const styles = {
         
     },
     headerText:{
-        mt: ['px'],
         mb:['150px'],
         color: 'white',
         fontSize: ['16px'],
