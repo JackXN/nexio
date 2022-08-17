@@ -9,9 +9,9 @@ import Image from 'next/image'
 
 const index = () => {
     return (
- <Box sx={styles.container}>
+ <Box sx={styles.container} data-aos='fade-up' data-aos-duration='500' data-aos-delay='50'>
      <Box sx={styles.textContainer}>
-<Text as='h1' style={{fontSize: ['90px', ]}}>
+<Text as='h1' style={{fontSize: ['90px' ]}} >
     Nexio
 </Text>
 <Text as='h3' style={{fontSize: ['25px'], position: 'relative', bottom: ['25px'], mb:['20px']}}  >
@@ -62,7 +62,8 @@ const styles = {
         backgroundImage: 'url(./displayOne.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat'
+        backgroundRepeat: 'no-repeat',
+        
         
 
         

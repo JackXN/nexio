@@ -12,7 +12,7 @@ const NavBar = (props) => {
 
   return (
     <NavBarContainer {...props}>
-   <Image src='/Logo.png' height='50px' width='50px' color='white !important' data-aos="flip-up"/>
+   <Image src='/Logo.png' height='50px' width='50px' color='white !important' data-aos="fade-up-left"/>
       <MenuToggle toggle={toggle} isOpen={isOpen} />
       <MenuLinks isOpen={isOpen} />
     </NavBarContainer>
