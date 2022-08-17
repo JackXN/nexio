@@ -18,7 +18,7 @@ const index = () => {
     Lighting & Climate Control
 </Text>
 </Box>
-<Box sx={styles.headerText}>
+<Box sx={styles.headerText} >
     <Text as='h2'  color='white'>Putting The Control Of Your Home In Your Hands</Text>
     <Text as='h2'>Beautiful, Modern And Essential</Text>
 </Box>
@@ -49,13 +49,15 @@ const styles = {
         
     },
     headerText:{
-        mt: ['40px'],
+        mt: ['px'],
+        mb:['150px'],
         color: 'white',
-        fontSize: ['23px'],
+        fontSize: ['16px'],
     },
     imageContainer: {
-        width:['500px', '900px'],
-        height:['500px'],
+        width:['100%'],
+        height:['200px', '500px'],
+        padding: ['10px'],
         content: '" "',
         backgroundImage: 'url(./displayOne.png)',
         backgroundSize: 'cover',
