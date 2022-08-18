@@ -23,11 +23,9 @@ const index = () => {
                 <Text as='p' sx={styles.descriptionOne}>
                 The Nature switch adopts Touch Pro technology and brings ultimate touch experience for lighting. It is also designed with DIY Colorful LED indicator, you can turn on the light easily in the dark. The cover adopts tempered glass with oleophobic coating, which is wear resistant and easy for cleaning & maintenance.
                 </Text>
-                
-        
            <Features/>
            <Products/>
-              </Box>
+           </Box>
            </Box>
            </>
     )
@@ -42,6 +40,7 @@ const styles = {
         backgroundPosition:'center',
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed',
+        backgroundImage: '/blackbg.png',
         backgroundSize: 'cover',
         height:'100%',
         width:'100%',
@@ -49,7 +48,7 @@ const styles = {
    
 
     wrapper: {
-        backgroundImage: '/blackbg.png',
+        // backgroundImage: '/blackbg.png',
         display: 'flex',
         flexDirection: ['column'],
         textAlign: 'center',

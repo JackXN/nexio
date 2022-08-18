@@ -52,7 +52,7 @@ const styles = {
         height: '100%'
     },
     wrapper: {
-background: '/blackbg.png',
+// background: '/blackbg.png',
     },
     productContainer: {
         height: ['550px'],
