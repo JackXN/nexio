@@ -75,6 +75,7 @@ background: '/blackbg.png',
         fontSize: ['35px'],
         fontWeight: 'bold',
         // border: 'solid red 2px',
+        mt: ['500px']
         
     }
 }
