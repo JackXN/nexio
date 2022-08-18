@@ -34,9 +34,10 @@ export default index
 const styles = {
     container: {
         backgroundImage: '/blackbg.png',
-        backgroundPosition:'top',
+        backgroundPosition:'center',
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed',
+        backgroundSize: 'cover',
         height:'100%',
         width:'100%',
     },
