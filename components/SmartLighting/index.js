@@ -10,6 +10,8 @@ import Products from './Products';
 
 const index = () => {
     return (
+        <>
+        <Box sx={styles.backG}></Box>
        <Box sx={styles.container}>
            <Box sx={styles.wrapper}>
                <Text as='h1' sx={styles.title}>Smart Lighting</Text>
@@ -25,8 +27,9 @@ const index = () => {
         
            <Features/>
            <Products/>
+              </Box>
            </Box>
-           </Box>
+           </>
     )
 }
 
@@ -36,14 +39,23 @@ export default index
 
 const styles = {
     container: {
-        
         backgroundPosition:'center',
         // backgroundRepeat: 'no-repeat',
-        backgroundAttachment: 'fixed',
+        // backgroundAttachment: 'fixed',
         backgroundSize: 'cover',
-        height:'100%',
+        height:'100vh',
         width:'100%',
     },
+    backG: {
+        backgroundImage: '/blackbg.png',
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        position: 'fixed',
+        height: '100%',
+        width: '100%',
+    },
+
     wrapper: {
         backgroundImage: '/blackbg.png',
         display: 'flex',
