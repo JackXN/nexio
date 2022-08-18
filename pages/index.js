@@ -37,11 +37,10 @@ useEffect(() => {
 const styles = {
   container: {
     overflowX: 'hidden',
-    
     backgroundColor: '#C9C9C9',
     height: '100%',
     backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
+  
     backgroundSize: 'cover',
     backgroundAttachment: 'fixed'
   }

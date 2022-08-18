@@ -35,7 +35,7 @@ const styles = {
     container: {
         backgroundImage: '/blackbg.png',
         backgroundPosition:'center',
-        backgroundRepeat: 'no-repeat',
+        // backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed',
         backgroundSize: 'cover',
         height:'100%',
