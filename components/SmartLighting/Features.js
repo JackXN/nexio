@@ -13,7 +13,6 @@ const Features = () => {
           <Box sx={styles.imageContainer}>
               <Image src='/NatureFeatureShowcase.png' alt='Nature Switch Features Showcase' height='450px' width='450px'/>
           </Box>
-
       </Box>
     )
 }

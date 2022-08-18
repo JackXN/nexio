@@ -6,6 +6,7 @@ import React from 'react';
 import {Box,Text} from '@chakra-ui/react';
 import Image from 'next/image'; 
 import Features from './Features';
+import Products from './Products';
 
 const index = () => {
     return (
@@ -23,6 +24,7 @@ const index = () => {
                 
            </Box>
            <Features/>
+           <Products/>
            </Box>
     )
 }
