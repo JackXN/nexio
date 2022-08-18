@@ -11,7 +11,7 @@ const index = () => {
     return (
  <Box sx={styles.container} data-aos='fade-up' data-aos-duration='500' data-aos-delay='50'>
      <Box sx={styles.textContainer}>
-<Text as='h1' style={{fontSize: ['90px' ]}} >
+<Text as='h1' style={{fontSize: ['90px' ]}} padding='20px'>
     Nexio
 </Text>
 <Text as='h3' style={{fontSize: ['25px'], position: 'relative', bottom: ['25px'], mb:['20px']}}  >
@@ -46,7 +46,7 @@ const styles = {
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundAttachment: 'fixed',
-        border: 'solid red 10px',
+       
     },
     textContainer: {
         color: 'white',

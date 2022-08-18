@@ -22,7 +22,7 @@ const index = () => {
                 </Text>
                 
            </Box>
-           {/* <Features/> */}
+           <Features/>
            </Box>
     )
 }

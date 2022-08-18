@@ -16,7 +16,7 @@ const NavBar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <NavBarContainer {...props} data-aos="fade-up-left" bg='black' border='solid blue 10px'>
+    <NavBarContainer {...props} data-aos="fade-up-left" >
    <Image src='/Logo.png' height='50px' width='50px'/>
       <MenuToggle toggle={toggle} isOpen={isOpen} />
       <MenuLinks isOpen={isOpen} />
