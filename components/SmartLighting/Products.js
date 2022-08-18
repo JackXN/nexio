@@ -44,13 +44,26 @@ const Products = () => {
 
 const styles = {
     container: {
+        pt: ['40px'],
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        height: '100%'
+    },
+    wrapper: {
+background: '/blackbg.png',
     },
     productContainer: {
-        height: ['500px'],
+        height: ['550px'],
         width: ['400px'],
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed',
-        backgroundRepeat: 'no-repeat'
+        backgroundRepeat: 'no-repeat',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems:'center',
+        textAlign: 'center'
     },
     textContainer: {
         color: 'white',
