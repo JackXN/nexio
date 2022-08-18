@@ -43,7 +43,7 @@ const styles = {
         backgroundImage: 'url(./bg.png)',
         height: '100%',
         backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
+        // backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundAttachment: 'fixed',
        
@@ -68,7 +68,7 @@ const styles = {
         backgroundImage: 'url(./displayOne.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        backgroundRepeat: 'no-repeat',
+        // backgroundRepeat: 'no-repeat',
         
         
 

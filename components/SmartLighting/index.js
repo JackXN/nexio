@@ -37,7 +37,7 @@ export default index
 
 const styles = {
     container: {
-        backgroundPosition:'center',
+        // backgroundPosition:'center',
         backgroundRepeat: 'no-repeat',
         backgroundAttachment: 'fixed',
         backgroundImage: '/blackbg.png',
@@ -48,7 +48,7 @@ const styles = {
    
 
     wrapper: {
-        // backgroundImage: '/blackbg.png',
+        backgroundImage: '/blackbg.png',
         display: 'flex',
         flexDirection: ['column'],
         textAlign: 'center',
