@@ -45,7 +45,8 @@ const styles = {
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
-        backgroundAttachment: 'fixed'
+        backgroundAttachment: 'fixed',
+        border: 'solid red 10px',
     },
     textContainer: {
         color: 'white',

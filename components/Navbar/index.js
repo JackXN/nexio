@@ -6,7 +6,7 @@ import Image from 'next/image';
 import Logo from "./Logo";
 
 
-import Aos from 'aos';
+// import Aos from 'aos';
 
 const NavBar = (props) => {
 
@@ -16,8 +16,8 @@ const NavBar = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <NavBarContainer {...props} data-aos="fade-up-left" backgroundImage='/bg.png'>
-   <Image src='/Logo.png' height='50px' width='50px' color='white !important' />
+    <NavBarContainer {...props} data-aos="fade-up-left" bg='black' border='solid blue 10px'>
+   <Image src='/Logo.png' height='50px' width='50px'/>
       <MenuToggle toggle={toggle} isOpen={isOpen} />
       <MenuLinks isOpen={isOpen} />
     </NavBarContainer>
