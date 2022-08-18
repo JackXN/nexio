@@ -37,7 +37,7 @@ useEffect(() => {
 
 const styles = {
   container: {
-    overflowX: 'hidden',
+    overflowY: 'hidden',
     backgroundColor: '#C9C9C9',
     height: '100%',
     backgroundPosition: 'center',
