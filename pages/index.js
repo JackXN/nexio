@@ -8,6 +8,7 @@ import Navbar from '../components/Navbar/index';
 import Hero from '../components/Hero/index';
 import SmartLighting from '../components/SmartLighting/index';
 import {Container, Box} from '@chakra-ui/react';
+import ShowCaseBar from '../components/ShowcaseBanner/index';
 
 import AOS from 'aos';
 
@@ -29,6 +30,7 @@ useEffect(() => {
       </Head>
       <Navbar/>
       <Hero/>
+      <ShowCaseBar/>
       <SmartLighting/>
     </Box>
   )
